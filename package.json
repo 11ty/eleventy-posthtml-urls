@@ -1,13 +1,18 @@
 {
-  "private": true,
   "name": "@11ty/posthtml-urls",
-  "description": "PostHTML plugin for transforming URLs. A fork of posthtml/posthtml-urls.",
   "version": "1.0.0",
+  "description": "PostHTML plugin for transforming URLs. A fork of posthtml/posthtml-urls.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "lib",
   "license": "MIT",
   "author": "Zach Leatherman <null@zachleat.com> (https://zachleat.com/)",
   "contributors": ["Steven Vachon <contact@svachon.com> (https://svachon.com)"],
-  "repository": "github:11ty/posthtml-urls",
-  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/11ty/eleventy-posthtml-urls.git"
+  },
   "dependencies": {
     "evaluate-value": "^2.0.0",
     "http-equiv-refresh": "^2.0.1",
