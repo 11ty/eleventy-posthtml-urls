@@ -1,4 +1,4 @@
-# eleventy-posthtml-urls
+# `@11ty/posthtml-urls`
 
 PostHTML plugin for transforming URLs. This is a fork of [`posthtml/posthtml-urls`](https://github.com/posthtml/posthtml-urls).
 
