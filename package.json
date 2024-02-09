@@ -1,26 +1,27 @@
 {
   "private": true,
-  "name": "posthtml-urls",
-  "description": "PostHTML plugin for transforming URLs.",
-  "version": "2.0.0-alpha",
+  "name": "@11ty/posthtml-urls",
+  "description": "PostHTML plugin for transforming URLs. A fork of posthtml/posthtml-urls.",
+  "version": "1.0.0",
   "license": "MIT",
-  "author": "Steven Vachon <contact@svachon.com> (https://svachon.com)",
-  "repository": "github:posthtml/posthtml-urls",
+  "author": "Zach Leatherman <null@zachleat.com> (https://zachleat.com/)",
+  "contributors": ["Steven Vachon <contact@svachon.com> (https://svachon.com)"],
+  "repository": "github:11ty/posthtml-urls",
   "main": "lib",
   "dependencies": {
     "evaluate-value": "^2.0.0",
     "http-equiv-refresh": "^2.0.1",
     "list-to-array": "^1.1.0",
-    "object.entries": "^1.1.0",
+    "object.entries": "^1.1.7",
     "parse-srcset": "^1.0.2"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "coveralls": "^3.0.6",
-    "html-tags": "^3.1.0",
+    "html-tags": "^3.1.1",
     "mocha": "^6.2.0",
     "nyc": "^14.1.1",
-    "posthtml": "~0.11.6"
+    "posthtml": "~0.16.6"
   },
   "engines": {
     "node": ">= 6"
