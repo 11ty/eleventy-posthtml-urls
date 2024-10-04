@@ -17,7 +17,6 @@
     "evaluate-value": "^2.0.0",
     "http-equiv-refresh": "^2.0.1",
     "list-to-array": "^1.1.0",
-    "object.entries": "^1.1.7",
     "parse-srcset": "^1.0.2"
   },
   "devDependencies": {

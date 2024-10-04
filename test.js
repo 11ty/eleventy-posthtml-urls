@@ -1,5 +1,4 @@
 "use strict";
-const entries = require("object.entries");
 const {expect} = require("chai");
 const {filter} = require("./lib/defaultOptions");
 const plugin = require("./lib");
@@ -9,7 +8,7 @@ const voidTags = require("html-tags/void");
 
 
 
-const fixturesWithAttributes = entries(filter).reduce((result, [tagName, attrs]) =>
+const fixturesWithAttributes = Object.entries(filter).reduce((result, [tagName, attrs]) =>
 {
 	Object.keys(attrs).forEach(attrName =>
 	{
