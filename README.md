@@ -16,10 +16,10 @@ npm install @11ty/posthtml-urls
 
 ```js
 const posthtml = require('posthtml');
-const urls = require('posthtml-urls');
+const urls = require('@11ty/posthtml-urls');
 
 const options = {
-  eachURL: (url, attr, element) => `http://domain.com/${url}`
+  eachURL: (url, attr, tagName) => `http://domain.com/${url}`
 };
 
 posthtml()
