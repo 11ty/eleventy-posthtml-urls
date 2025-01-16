@@ -1,6 +1,6 @@
 {
   "name": "@11ty/posthtml-urls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PostHTML plugin for transforming URLs. A fork of posthtml/posthtml-urls.",
   "publishConfig": {
     "access": "public"
