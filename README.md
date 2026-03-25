@@ -19,7 +19,7 @@ const posthtml = require('posthtml');
 const urls = require('@11ty/posthtml-urls');
 
 const options = {
-  eachURL: (url, attr, tagName) => `http://domain.com/${url}`
+  eachURL: (url, attr, tagName, rawNode) => `http://domain.com/${url}`
 };
 
 posthtml()
@@ -35,7 +35,7 @@ posthtml()
 ### `eachURL`
 Type: `Function`
 Default value: `undefined`
-A callback function ran for each URL value found. You can return either a synchronous value or a `Promise`.
+A callback function ran for each URL value found. You can return either a synchronous value or a `Promise`. The `rawNode` argument was added in `v1.0.3`.
 
 ### `filter`
 Type: `Object`
