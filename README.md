@@ -5,7 +5,7 @@ PostHTML plugin for transforming URLs. This is a fork of [`posthtml/posthtml-url
 
 ## Installation
 
-[Node.js](http://nodejs.org) `>= 6` is required. To install, type this at the command line:
+[Node.js](http://nodejs.org) `>= 20` is required. To install, type this at the command line:
 
 ```shell
 npm install @11ty/posthtml-urls

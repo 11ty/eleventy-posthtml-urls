@@ -26,7 +26,7 @@
     "posthtml": "~0.16.6"
   },
   "engines": {
-    "node": ">= 6"
+    "node": ">= 20"
   },
   "scripts": {
     "posttest": "vitest run --coverage",
