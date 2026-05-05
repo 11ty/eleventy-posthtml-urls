@@ -1,12 +1,9 @@
-"use strict";
-const {expect} = require("chai");
+import { it, expect } from "vitest";
 const {filter} = require("./lib/defaultOptions");
 const plugin = require("./lib");
 const posthtml = require("posthtml");
 const tags = require("html-tags");
 const voidTags = require("html-tags/void");
-
-
 
 const fixturesWithAttributes = Object.entries(filter).reduce((result, [tagName, attrs]) =>
 {
