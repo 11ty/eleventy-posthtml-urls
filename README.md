@@ -19,6 +19,7 @@ const posthtml = require('posthtml');
 const urls = require('@11ty/posthtml-urls');
 
 const options = {
+  // rawNode added in v1.0.3
   eachURL: (url, attr, tagName, rawNode) => `http://domain.com/${url}`
 };
 
