@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/11ty/eleventy-posthtml-urls.git"
+    "url": "git://github.com/11ty/posthtml-urls.git"
   },
   "dependencies": {
     "http-equiv-refresh": "^2.0.1",
