@@ -161,8 +161,8 @@ filteredFixturesWithAttributes.forEach(({attrName, isVoid, tagName}) => it(`supp
 
 ["img", "source"].forEach(tagName => it(`supports <${tagName} src srcset="…">`, () =>
 {
-	const input  = `<${tagName} src="image1.png" srcset="image1a.png 2x, image1b.png 100w, image1c.png 100h">`;
-	const output = `<${tagName} src="http://domain.com/image1.png" srcset="http://domain.com/image1a.png 2x, http://domain.com/image1b.png 100w, http://domain.com/image1c.png 100h">`;
+	const input  = `<${tagName} src="image1.png" srcset="image1a.png 2x, image1b.png 100w, image1c.png">`;
+	const output = `<${tagName} src="http://domain.com/image1.png" srcset="http://domain.com/image1a.png 2x, http://domain.com/image1b.png 100w, http://domain.com/image1c.png">`;
 
 	const options =
 	{
