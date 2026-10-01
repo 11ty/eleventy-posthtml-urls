@@ -2,8 +2,7 @@ import { it, expect } from "vitest";
 const {filter} = require("./lib/defaultOptions");
 const plugin = require("./lib");
 const posthtml = require("posthtml");
-const tags = require("html-tags");
-const voidTags = require("html-tags/void");
+import tags, { voidHtmlTags as voidTags } from "html-tags";
 
 const fixturesWithAttributes = Object.entries(filter).reduce((result, [tagName, attrs]) =>
 {
